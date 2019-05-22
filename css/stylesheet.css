@@ -1,0 +1,82 @@
+body {
+  background-color: #666;
+  
+  /*background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;*/
+}
+
+.calculator-bg {
+  background-color: #fff;
+  box-shadow: 5px 5px 10px #222;
+  width: 250px;
+  margin: 10px auto;
+  padding: 20px 8px;
+  border-radius: 15px;
+background: linear-gradient(90deg, #CCC 1.5%, #FFF 5.5%, #FFF 94%, #CCC 98.5%) repeat scroll 0% 0%}
+
+.button {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+  font-size: 125%;
+}
+
+.number-button {
+  background-color: #fff;
+  color: #454546;
+}
+
+.operand-button {
+  background-color: #ddd;
+  color: #555657;
+}
+
+.ac-button {
+  background-color: #ff8f55;
+  color: #fff;
+}
+
+.result-button {
+  background-color: #999;
+  color: #fff;
+}
+
+.button + .button {
+  margin-left: 5px;
+}
+
+.display {
+  background-color: #666;
+  width: 230px;
+  margin: 10px auto;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.display-text {
+  min-height: 20px;
+  float: right;
+  color: #FFF;
+  font-size: 175%;
+  margin: 5px;
+  padding-top: 8px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.button-row {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.to-right {
+  padding-left: 70px;
+}
